@@ -1,0 +1,162 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.clear:after,.container:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+
+#body{
+	background: #e3e3e3;
+}
+
+.navbar{
+	height: 600px;
+	background-image: url(img/deskto.jpg);
+	background-size: cover;
+
+	
+}
+
+.opacity{
+	height:70px; 
+	border-bottom: 1px solid #CECECE;
+
+}
+
+.container{
+	width: 1000px; 
+	margin: 0px auto;
+}
+.main-menu ul li a{
+color: #fff;
+padding: 24px 17px;
+padding-top: 24px;
+text-decoration: none;
+float: left;
+font-family: Adobe Caslon Pro Bold;
+transition: .1s;
+} 
+
+.nav ul li{
+	display: inline-block;
+	margin-top:25px;
+	position: relative;
+	
+}
+
+.c-div{
+margin: 276px auto;
+width: 450px;
+height: 250px;
+}
+
+.c-div h1{
+font-size: 57px;
+color: #a3ea24;
+font-family: Forte;
+margin-top: -119px;
+}
+
+.c-div button{
+width: 220px;
+height: 50px;
+margin: 66px 109px;
+font-size: 18px;
+color: #fff;
+border-radius: 14px;
+background-color: #332733d6;
+transition: .3s;
+}
+
+.c-div button:hover{
+background-color: #008000d9;
+color: red;
+
+}
+
+ul{
+list-style-type: none;	
+}
+
+.main-menu ul li a:hover{
+background: #fb00df78;
+border-radius: 20px;
+height: 12px;
+padding-top: 6px;
+margin-top: 22px;
+}
+
+.main-menu ul li ul{
+position: absolute;
+top: 61px;
+left: 326px;
+width: 150px;
+height: 190px;
+display: none;
+background: #b3b39182;
+box-shadow: 0px 1px 2px #c7c7c7;
+border-radius: 8px;
+border: 1px solid #d7d7d7;
+z-index: 999;
+}    
+
+.main-menu ul li ul a{
+	margin: 0px;
+	transition: .1s;
+	padding: 15px;
+}
+
+
+.main-menu ul li:hover ul{
+	display: block;
+	padding: 18px 6px;
+}
+
+.top-logo{
+width: 149px;
+height: 139px;
+margin-top: 18px;
+float: left;
+margin-left: 13px;
+border-radius: 8px;
+}
+
+.icon{
+float: right;
+border-radius: 50px;
+margin-top: 16px;
+margin-right: 10px;
+transition: .4s;
+}
+
+.icon:hover{
+	transform: translateY(-10px);
+}
+
+.column1{
+width: 650px;
+float: left;
+margin-left: 50px;
+}
+
+.m-content{
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.card{
+	padding: 20px;
+	background: #fff;
+}
+
+.column2{
+width: 528px;
+float: left;
+margin-left: 100px;
+}
+
+
